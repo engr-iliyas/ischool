@@ -1,0 +1,27 @@
+menus:
+  - name: Home
+    link: ./index.html
+  - name: About
+    link: "#about"
+  - name: Services
+    link: "#service"
+  - name: Features
+    link: "#features"
+  # - name: Deployments
+  #   link: "#deployments"
+  - name: Pricing
+    link: "#pricing"
+  - name: Team
+    link: "#team"
+  - name: Contact
+    link: "#"
+quick_links:
+  - name: Home
+    link: "#"
+  - name: About Us
+    link: Our Team
+  - name: 
+    link: 
+popular_links:
+  - name:
+    link: 

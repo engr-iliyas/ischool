@@ -1,0 +1,20 @@
+title: Our Pricing Plan
+subtitle: We Offer Affordable and Flexible Packages
+summary: The following table, summarizes each of our setup plans.
+request: Need A Custom Package?
+contact: 
+prices:
+  - title: Basic
+    amount: 100
+    benefits:
+      - title: Result Management
+      - title: School Fees Management
+  - title: Premium
+    amount: 500
+    benefits:
+      - title: Result Management with online Result
+      - title: School Fees Management
+      - title: Online Payment System
+      - title: CBT & Past Questions
+      - title: Students Promotion
+      - title: Staff, Students & Parents Accounts

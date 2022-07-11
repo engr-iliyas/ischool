@@ -1,0 +1,13 @@
+title: What clients say
+subtitle: Clients Say About Our Services
+summary: Lorem ut kasd elitr sed est duo ea ipsum justo diam, est erat lorem clita diam elitr
+action: 
+testimonials:
+  - comment: Sed ea amet kasd elitr stet nonumy, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolores tempor voluptua ipsum sanctus clita
+    passport: /assets/images/testimonial-1.jpg
+    name: Client Name
+    profession: Profession
+  - comment: Sed ea amet kasd elitr stet nonumy, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolores tempor voluptua ipsum sanctus clita
+    passport: /assets/images/testimonial-2.jpg
+    name: Client Name
+    profession: Profession

@@ -1,7 +1,7 @@
 <div class="container-fluid nav-bar p-0">
   <div class="container-lg p-0">
       <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
-          <a href="index.html" class="navbar-brand">
+          <a href="{{ "./index.html" | relative_url }}" class="navbar-brand">
               <h1 class="m-0 text-white display-4"><span class="text-primary">i</span>school</h1>
           </a>
           <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -9,14 +9,9 @@
           </button>
           <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
               <div class="navbar-nav ml-auto py-0">
-                  <a href="index.html" class="nav-item nav-link active">Home</a>
-                  <a href="#about" class="nav-item nav-link">About</a>
-                  <a href="#service" class="nav-item nav-link">Services</a>
-                  <a href="#features" class="nav-item nav-link">Features</a>
-                  <a href="#features" class="nav-item nav-link">Deployments</a>
-                  <a href="#pricing" class="nav-item nav-link">Pricing</a>
-                  <a href="#team" class="nav-item nav-link">Pricing</a>
-                  <a href="#contact" class="nav-item nav-link">Contact</a>
+                {% for menu in site.data.nav.menus %}
+                  <a href="{{ site.baseurl }}{{ menu.link | relative_url }}" class="nav-item nav-link {% if page.url == menu.link %}active{% endif %}">{{ menu.name }}</a>
+                {% endfor %}
               </div>
           </div>
       </nav>

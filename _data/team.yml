@@ -1,0 +1,33 @@
+title: Meet The Team
+subtitle: We are committed to improving your customer’s experience through convenience, simplicity, and timely delivery.
+summary: Our team are mainly made up able engineers from different professions of computing, and highly experienced marketers and academics.
+action: team
+teams:
+  - passport: /assets/images/team-1.jpg
+    whatsapp: 2349063426744
+    twitter:
+    facebook: ischoolportal
+    linkedin: ischool-portal-63a81a230
+    name: Iliyas Nasir Muhammad
+    position: CEO, Founder
+  # - passport: /assets/images/team-2.jpg
+  #   whatsapp:
+  #   twitter:
+  #   facebook:
+  #   linkedin:
+  #   name: Kate Wilson
+  #   Position: Designer
+  # - passport: /assets/images/team-3.jpg
+  #   whatsapp:
+  #   twitter:
+  #   facebook:
+  #   linkedin:
+  #   name: John Brown
+  #   Position: Developer
+  # - passport: /assets/images/team-4.jpg
+  #   whatsapp:
+  #   twitter:
+  #   facebook:
+  #   linkedin:
+  #   name: Paul Watson
+  #   Position: Marketer
