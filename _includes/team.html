@@ -14,7 +14,7 @@
                     {% for member in site.data.team.teams %}
                     <div class="team-item">
                         <div class="position-relative">
-                            <img class="img-fluid w-100" src="{{ member.passport }}" alt="">
+                            <img class="img-fluid w-100" src="{{ member.passport | relative_url }}" alt="">
                             <div
                                 class="team-overlay position-absolute d-flex align-items-center justify-content-center m-3">
                                 <div class="d-flex align-items-center justify-content-start">

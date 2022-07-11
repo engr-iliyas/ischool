@@ -10,7 +10,7 @@
           <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
               <div class="navbar-nav ml-auto py-0">
                 {% for menu in site.data.nav.menus %}
-                  <a href="{{ site.baseurl }}{{ menu.link | relative_url }}" class="nav-item nav-link {% if page.url == menu.link %}active{% endif %}">{{ menu.name }}</a>
+                  <a href="{{ menu.link | relative_url }}" class="nav-item nav-link {% if page.url == menu.link %}active{% endif %}">{{ menu.name }}</a>
                 {% endfor %}
               </div>
           </div>
