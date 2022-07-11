@@ -10,13 +10,13 @@ teams:
     linkedin: ischool-portal-63a81a230
     name: Iliyas Nasir Muhammad
     position: CEO, Founder
-  # - passport: /assets/images/team-2.jpg
+  - passport: /assets/images/musa.jpg
   #   whatsapp:
   #   twitter:
   #   facebook:
   #   linkedin:
-  #   name: Kate Wilson
-  #   Position: Designer
+    name: Musa
+    Position: Designer
   # - passport: /assets/images/team-3.jpg
   #   whatsapp:
   #   twitter:
